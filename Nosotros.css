@@ -1,0 +1,131 @@
+body {
+    background-color: white;;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.top-bar , .menu2 {
+    background-color:#F4C2C2;;
+    color: #8B5E3C;
+    font-size: 0.9em;
+    padding: 10px 20px;
+    display: flex;
+    border-radius: 20px;
+    align-items: right;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.top-bar , .menu2:hover{
+    color:#D68B8C;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #F4C2C2;
+}
+.logo img {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 10px 0;
+}
+  
+.menu li a {
+    text-decoration: none;
+    color: #8B5E3C;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size: 0.9em;
+}
+  
+.menu li a:hover {
+    color: #D68B8C;
+}
+
+#seccion1{
+    font-family: cursive;
+}
+
+.imagen-texto1{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    gap: 80px;
+    overflow: hidden;
+}
+.imagen{
+    background-color: #8B5E3C;
+    width: 300px;
+    height: 250px;
+    margin: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.imagen img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.texto{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    color: #583c26;
+}
+.texto h3{
+    color: #3a2616;
+}
+footer {
+    background-color: #D68B8C;
+    margin-top: 20px;
+    display: flex;
+    padding: 20px;
+}
+.grupo-footer h3{
+    color: #5D3A3A;
+    font-weight: bold;
+}
+.grupo-footer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    padding: 50px;
+}
+.grupo-footer h3,
+.grupo-footer ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.grupo-footer li {
+    margin-bottom: 8px;
+}
+footer img {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+}
+li{
+    list-style: none;
+    color: white;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;      
+}
+li a:hover{
+    color: #8B5E3C;
+    transform: scale(1.5);
+}
